@@ -1,0 +1,74 @@
+{
+  "name": "@lxf2513/vue-use-clipboard",
+  "version": "1.0.0",
+  "description": "Reactive Clipboard API.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./component": {
+      "import": {
+        "types": "./dist/component.d.mts",
+        "default": "./dist/component.mjs"
+      },
+      "require": {
+        "types": "./dist/component.d.cts",
+        "default": "./dist/component.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "type-check": "tsc --strict --noEmit",
+    "format": "prettier --write src/",
+    "build": "unbuild",
+    "release": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:luoxiangfan/use-clipboard.git"
+  },
+  "keywords": [
+    "readdirSync",
+    "fs.readdirSync",
+    "recursive",
+    "dir",
+    "directory",
+    "folder",
+    "fs"
+  ],
+  "author": "lxf <infiniment@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luoxiangfan/use-clipboard/issues"
+  },
+  "homepage": "https://github.com/luoxiangfan/use-clipboard#readme",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "unbuild": "^2.0.0",
+    "vue": "^3.5.13"
+  },
+  "peerDependencies": {
+    "vue": ">3.0.0"
+  },
+  "dependencies": {
+    "vue-use-permission": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
