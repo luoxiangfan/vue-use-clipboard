@@ -1,7 +1,7 @@
 {
   "name": "@lxf2513/vue-use-clipboard",
-  "version": "1.0.0",
-  "description": "Reactive Clipboard API.",
+  "version": "1.0.1",
+  "description": "Reactive Clipboard API for Vue3.",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -42,13 +42,16 @@
     "url": "git+git@github.com:luoxiangfan/use-clipboard.git"
   },
   "keywords": [
-    "readdirSync",
-    "fs.readdirSync",
-    "recursive",
-    "dir",
-    "directory",
-    "folder",
-    "fs"
+    "vue",
+    "vue3",
+    "hooks",
+    "clipboard",
+    "browser",
+    "navigator",
+    "clipboard api",
+    "composition api",
+    "use clipboard",
+    "vue use clipboard"
   ],
   "author": "lxf <infiniment@163.com>",
   "license": "MIT",
