@@ -63,7 +63,7 @@
     "prettier": "^3.9.1",
     "typescript": "^6.0.3",
     "unbuild": "^3.6.1",
-    "vue": "^3.5.38"
+    "vue": "^3.5.39"
   },
   "peerDependencies": {
     "vue": ">3.0.0"
