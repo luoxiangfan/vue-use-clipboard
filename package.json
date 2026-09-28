@@ -60,7 +60,7 @@
   },
   "homepage": "https://github.com/luoxiangfan/vue-use-clipboard#readme",
   "devDependencies": {
-    "prettier": "^3.9.8",
+    "prettier": "^3.9.9",
     "typescript": "^7.0.2",
     "unbuild": "^3.6.1",
     "vue": "^3.5.43"
